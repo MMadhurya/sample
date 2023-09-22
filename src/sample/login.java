@@ -12,7 +12,7 @@ public class login {
 		WebDriver driver = new ChromeDriver(); 
 		  driver.get("https://www.hyrtutorials.com/p/basic-controls.html");  
 		  Thread.sleep(3000);
-		
+		System.out.println("I am good boy");
 		 driver.findElement(By.id("firstName")).sendKeys("achyu");
 		 Thread.sleep(3000);
 		 driver.findElement(By.id("lastName")).sendKeys("v");
