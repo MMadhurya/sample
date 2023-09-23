@@ -16,6 +16,7 @@ public class LOGIN1 {
 		driver.navigate().to("https://www.verizon.com/");
 		driver.manage().window().maximize();
 		//this is comit from github
+		//this is to push to github
 		Thread.sleep(100000);
 		List<WebElement> search=new ArrayList<WebElement>();
 		search=driver.findElements(By.xpath("//button[@aria-label='Search Verizon']"));
